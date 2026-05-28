@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cetacean-net"
+version = "0.1.0"
+description = "Multi-model attention-based classification of cetacean species from acoustic signals."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "torchvision",
+    "torchaudio",
+    "numpy",
+    "scipy",
+    "scikit-image",
+    "scikit-learn",
+    "tqdm",
+    "pandas",
+    "matplotlib",
+    "kymatio",
+    "wandb",
+]
+
+[project.urls]
+Repository = "https://github.com/Ramanuja-Chanduri/cetacean-net"
+
+[tool.setuptools.packages.find]
+where = ["src"]

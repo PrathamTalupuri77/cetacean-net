@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# Experiment tracking / artifacts
+wandb/
+*.pth
+*.pt
+*.ckpt
+
+# Data
+data/
+*.wav
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
