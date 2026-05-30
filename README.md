@@ -74,7 +74,7 @@ cetacean-net/
 ## Installation
 
 ```bash
-git clone https://github.com/Ramanuja-Chanduri/cetacean-net.git
+git clone https://github.com/PrathamTalupuri77/cetacean-net
 cd cetacean-net
 pip install -r requirements.txt
 # or, to install the package itself (editable):

@@ -25,7 +25,7 @@ dependencies = [
 ]
 
 [project.urls]
-Repository = "https://github.com/Ramanuja-Chanduri/cetacean-net"
+Repository = "https://github.com/PrathamTalupuri77/cetacean-net"
 
 [tool.setuptools.packages.find]
 where = ["src"]
